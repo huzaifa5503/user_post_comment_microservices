@@ -25,6 +25,6 @@ public class User {
     private String email;
     @Column(name = "username", unique = true, nullable = false, updatable = false)
     private String phoneNumber;
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Post> posts;
 }
