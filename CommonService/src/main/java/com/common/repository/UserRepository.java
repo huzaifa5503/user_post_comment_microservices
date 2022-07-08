@@ -1,4 +1,4 @@
-package com.user.repository;
+package com.common.repository;
 
 import com.common.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
